@@ -1,5 +1,4 @@
-﻿![Logo](img/logo.png)
-## ShagDB
+﻿![Logo](img/logo.png) ## ShagDB
 
 
 ## Цель
