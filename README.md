@@ -1,4 +1,5 @@
-﻿## ![Logo](img/logo.png)ShagDB
+﻿![GitHub](https://img.shields.io/github/license/itstep-vrn/ShagDB?style=for-the-badge)
+## ![Logo](img/logo.png)ShagDB
 
 
 ## Цель
