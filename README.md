@@ -7,4 +7,4 @@
 менеджерах, преподавателях и группах в академии.
 
 ## Build status
-https://img.shields.io/github/downloads-pre/itstep-vrn/ShagDB/pre-release/total?style=for-the-badge
+![GitHub Pre-Releases](https://img.shields.io/github/downloads-pre/itstep-vrn/ShagDB/pre-release/total?style=for-the-badge)
