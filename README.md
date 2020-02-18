@@ -7,3 +7,4 @@
 менеджерах, преподавателях и группах в академии.
 
 ## Build status
+![AppVeyor](https://img.shields.io/appveyor/build/itstep-vrn/ShagDB?style=for-the-badge)
