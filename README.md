@@ -1,6 +1,4 @@
-﻿# Logo
-![Logo](img/logo.png)
-
+﻿![Logo](img/logo.png)
 # ShagDB
 
 
