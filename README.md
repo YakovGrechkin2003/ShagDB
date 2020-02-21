@@ -16,7 +16,5 @@ SQLite, QT.
 ## Build status
 ![GitHub Pre-Releases](https://img.shields.io/github/downloads-pre/itstep-vrn/ShagDB/pre-release/total?style=for-the-badge)
 
-## ЛИЦЕНЗИЯ
-![GitHub](https://img.shields.io/github/license/itstep-vrn/ShagDB?style=for-the-badge)
 ___
 
