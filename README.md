@@ -11,8 +11,8 @@
 ![C++](https://img.shields.io/badge/LANG-C++-green) 
 
 ## СЕРВИСЫ И ПРОГРАММЫ ИСПОЛЬЗОВАННЫЕ ПРИ РАЗРАБОТКЕ
-SQLite, QT.
-
+![SQLite](https://img.shields.io/badge/LANG-SQLite-green) 
+![QT](https://img.shields.io/badge/LANG-QT-green) 
 
 ## Build status
 ![GitHub Pre-Releases](https://img.shields.io/github/downloads-pre/itstep-vrn/ShagDB/pre-release/total?style=for-the-badge)
