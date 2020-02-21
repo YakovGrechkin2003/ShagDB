@@ -8,7 +8,7 @@
 
 ## ЯЗЫКИ ИСПОЛЬЗОВАННЫЕ ПРИ РАЗРАБОТКЕ
 ![SQL](https://img.shields.io/badge/LANG-SQL-green) 
-+ C++
+![C++](https://img.shields.io/badge/LANG-C++-green) 
 
 ## СЕРВИСЫ И ПРОГРАММЫ ИСПОЛЬЗОВАННЫЕ ПРИ РАЗРАБОТКЕ
 SQLite, QT.
