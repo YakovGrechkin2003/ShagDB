@@ -14,3 +14,6 @@
 ![GitHub](https://img.shields.io/github/license/itstep-vrn/ShagDB?style=for-the-badge)
 ___
 
+## Cкриншот
+___
+![Logo](img/Screenshot.png)
