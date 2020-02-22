@@ -115,3 +115,13 @@ create table tab_education
 
 create unique index tab_education_id_uindex
 	on tab_education (id);
+
+create table tab_phone
+(
+    id integer not null
+        constraint tab_phone_pk
+            primary key autoincrement,
+
+
+)
+
