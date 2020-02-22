@@ -118,10 +118,24 @@ create unique index tab_education_id_uindex
 
 create table tab_phone
 (
-    id integer not null
-        constraint tab_phone_pk
-            primary key autoincrement,
+	id integer not null
+		constraint tab_phone_pk
+			primary key autoincrement,
+	phone_number varchar not null,
+	human_id integer not null
+);
 
+create unique index tab_phone_id_uindex
+	on tab_phone (id);
 
-)
+create table tab_mail
+(
+	id integer not null
+		constraint tab_mail_pk
+			primary key autoincrement,
+	mail varchar not null,
+	human_id integer not null
+);
 
+create unique index tab_mail_id_uindex
+	on tab_mail (id);
