@@ -13,7 +13,7 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <widget class="QLabel" name="label">
+  <widget class="QLabel" name="label_pageGroup">
    <property name="geometry">
     <rect>
      <x>0</x>
@@ -26,10 +26,10 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>../../fon_end.png</pixmap>
+    <pixmap>DesignImages/fon_end.png</pixmap>
    </property>
   </widget>
-  <widget class="QTextEdit" name="textEdit">
+  <widget class="QTextEdit" name="textSearch">
    <property name="geometry">
     <rect>
      <x>330</x>
@@ -39,7 +39,7 @@
     </rect>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="buttonSearch">
    <property name="geometry">
     <rect>
      <x>1120</x>
@@ -52,7 +52,7 @@
     <string>Поиск</string>
    </property>
   </widget>
-  <widget class="QTableWidget" name="tableWidget">
+  <widget class="QTableWidget" name="tableGroup">
    <property name="geometry">
     <rect>
      <x>330</x>
@@ -87,7 +87,7 @@
     </property>
    </column>
   </widget>
-  <widget class="QLabel" name="label_2">
+  <widget class="QLabel" name="labelGroup">
    <property name="geometry">
     <rect>
      <x>590</x>
@@ -105,6 +105,22 @@
    </property>
    <property name="text">
     <string>   Список групп</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttonBack">
+   <property name="geometry">
+    <rect>
+     <x>14</x>
+     <y>2</y>
+     <width>281</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
    </property>
   </widget>
  </widget>

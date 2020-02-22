@@ -15,7 +15,7 @@
   </property>
   <property name="windowIcon">
    <iconset>
-    <normaloff>../../fon_end.png</normaloff>../../fon_end.png</iconset>
+    <normaloff>DesignImages/fon_end1.png</normaloff>DesignImages/fon_end1.png</iconset>
   </property>
   <widget class="QLabel" name="label_pageTeachers">
    <property name="geometry">
@@ -33,7 +33,7 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>../../fon_end.png</pixmap>
+    <pixmap>DesignImages/fon_end.png</pixmap>
    </property>
   </widget>
   <widget class="QTextEdit" name="textSearch">
@@ -1096,26 +1096,11 @@
    </column>
    <column>
     <property name="text">
-     <string>Пол</string>
-    </property>
-   </column>
-   <column>
-    <property name="text">
-     <string>Возраст</string>
-    </property>
-   </column>
-   <column>
-    <property name="text">
      <string>Статус</string>
     </property>
    </column>
-   <column>
-    <property name="text">
-     <string>Зарплата</string>
-    </property>
-   </column>
   </widget>
-  <widget class="QDockWidget" name="dockWidget">
+  <widget class="QDockWidget" name="dockTeacher">
    <property name="geometry">
     <rect>
      <x>720</x>
@@ -1125,7 +1110,7 @@
     </rect>
    </property>
    <widget class="QWidget" name="dockWidgetContents">
-    <widget class="QTreeWidget" name="treeWidget">
+    <widget class="QTreeWidget" name="treeTeacher">
      <property name="geometry">
       <rect>
        <x>0</x>
@@ -1148,10 +1133,10 @@
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>../../картинки/Photo.png</pixmap>
+      <pixmap>DesignImages/Photo.png</pixmap>
      </property>
     </widget>
-    <widget class="QDialogButtonBox" name="buttonBox">
+    <widget class="QDialogButtonBox" name="buttonPush">
      <property name="geometry">
       <rect>
        <x>360</x>
@@ -1197,6 +1182,22 @@
    </property>
    <property name="text">
     <string> Преподаватель</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttonBack">
+   <property name="geometry">
+    <rect>
+     <x>14</x>
+     <y>2</y>
+     <width>281</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
    </property>
   </widget>
  </widget>

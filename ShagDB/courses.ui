@@ -13,7 +13,7 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QLabel" name="label">
+  <widget class="QLabel" name="label_pageCourses">
    <property name="geometry">
     <rect>
      <x>0</x>
@@ -26,23 +26,10 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>../../fon_end.png</pixmap>
+    <pixmap>DesignImages/fon_end.png</pixmap>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit">
-   <property name="geometry">
-    <rect>
-     <x>310</x>
-     <y>20</y>
-     <width>791</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="echoMode">
-    <enum>QLineEdit::Normal</enum>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="pushSearch">
    <property name="geometry">
     <rect>
      <x>1100</x>
@@ -55,7 +42,7 @@
     <string>Поиск</string>
    </property>
   </widget>
-  <widget class="QTableWidget" name="tableWidget">
+  <widget class="QTableWidget" name="tableCourses">
    <property name="geometry">
     <rect>
      <x>310</x>
@@ -1067,8 +1054,18 @@
    <row/>
    <row/>
    <row/>
+   <column>
+    <property name="text">
+     <string>Название</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Короткое название</string>
+    </property>
+   </column>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_2">
+  <widget class="QLineEdit" name="lineFaculty">
    <property name="geometry">
     <rect>
      <x>650</x>
@@ -1086,6 +1083,32 @@
    </property>
    <property name="text">
     <string>   Факультеты</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>14</x>
+     <y>2</y>
+     <width>281</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textSearch">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>20</y>
+     <width>791</width>
+     <height>31</height>
+    </rect>
    </property>
   </widget>
  </widget>

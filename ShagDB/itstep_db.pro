@@ -38,7 +38,8 @@ FORMS += \
     teachers.ui \
     manager.ui \
     courses.ui \
-    groups.ui
+    groups.ui \
+    group.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

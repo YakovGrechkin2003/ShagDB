@@ -13,7 +13,7 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QLabel" name="labelManager">
+  <widget class="QLabel" name="label_pageManager">
    <property name="geometry">
     <rect>
      <x>0</x>
@@ -26,10 +26,10 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>../../fon_end.png</pixmap>
+    <pixmap>DesignImages/fon_end.png</pixmap>
    </property>
   </widget>
-  <widget class="QTableWidget" name="tableWidget">
+  <widget class="QTableWidget" name="tableManagers">
    <property name="geometry">
     <rect>
      <x>20</x>
@@ -1075,7 +1075,7 @@
     </property>
    </column>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="buttonSearch">
    <property name="geometry">
     <rect>
      <x>600</x>
@@ -1088,7 +1088,7 @@
     <string>Поиск</string>
    </property>
   </widget>
-  <widget class="QDockWidget" name="dockWidget">
+  <widget class="QDockWidget" name="dockManager">
    <property name="geometry">
     <rect>
      <x>740</x>
@@ -1098,7 +1098,7 @@
     </rect>
    </property>
    <widget class="QWidget" name="dockWidgetContents">
-    <widget class="QTreeWidget" name="treeWidget">
+    <widget class="QTreeWidget" name="treeManager">
      <property name="geometry">
       <rect>
        <x>0</x>
@@ -1107,8 +1107,13 @@
        <height>681</height>
       </rect>
      </property>
+     <column>
+      <property name="text">
+       <string notr="true">1</string>
+      </property>
+     </column>
     </widget>
-    <widget class="QDialogButtonBox" name="buttonBox">
+    <widget class="QDialogButtonBox" name="buttonPush">
      <property name="geometry">
       <rect>
        <x>370</x>
@@ -1121,7 +1126,7 @@
       <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
      </property>
     </widget>
-    <widget class="QLabel" name="label">
+    <widget class="QLabel" name="label_avatar">
      <property name="geometry">
       <rect>
        <x>160</x>
@@ -1139,23 +1144,7 @@
     </widget>
    </widget>
   </widget>
-  <widget class="QLineEdit" name="lineEdit">
-   <property name="geometry">
-    <rect>
-     <x>20</x>
-     <y>370</y>
-     <width>581</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="focusPolicy">
-    <enum>Qt::NoFocus</enum>
-   </property>
-   <property name="contextMenuPolicy">
-    <enum>Qt::NoContextMenu</enum>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_2">
+  <widget class="QLineEdit" name="lineManager">
    <property name="geometry">
     <rect>
      <x>930</x>
@@ -1173,6 +1162,32 @@
    </property>
    <property name="text">
     <string> Менеджер</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushBack">
+   <property name="geometry">
+    <rect>
+     <x>14</x>
+     <y>2</y>
+     <width>281</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textSearch">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>370</y>
+     <width>581</width>
+     <height>31</height>
+    </rect>
    </property>
   </widget>
  </widget>
