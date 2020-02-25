@@ -9,13 +9,14 @@
 | <span style="color:green">**sex**</span> | пол человека |
 | <span style="color:green">**age**</span> | возраст человека |
 
-Table **<SPAN STYLE="COLOR:BLUE">TAB_STUDENT</SPAN>**<span style="margin-left: 10px">(список студентов)
+Table <SPAN STYLE="COLOR:BLUE">**TAB_STUDENT**</SPAN><span style="margin-left: 10px">(список студентов)
 
 |Columns|Значение|
 |:-------------:|:---------------:|
 | <span style="color:green">**id**</span> | идентификатор записи |
 | <span style="color:green">**human_id**</span> | идентификатор человека |
 | <span style="color:green">**status**</span> | статус студента (учится, академ и тд) |
+
 Table <SPAN STYLE="COLOR:BLUE">**TAB_MANAGER**</SPAN><span style="margin-left: 10px">(список менеджеров)
 
 |Columns|Значение|
