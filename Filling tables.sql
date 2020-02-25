@@ -29,8 +29,10 @@ INSERT INTO tab_teacher (id, human_id, status, salary) VALUES (2, 10, 'at works'
 
 INSERT INTO tab_course (id, name, shortname) VALUES (1, 'Software development', 'RPO');
 INSERT INTO tab_course (id, name, shortname) VALUES (2, 'Design', 'D');
+
 INSERT INTO tab_groups (id, name, course_id, education_form, start_date, finish_date, status) VALUES (1, 'ST-6891', 1, 'Stationary', '18.02.2020', '18.02.2030', 'Active');
 INSERT INTO tab_groups (id, name, course_id, education_form, start_date, finish_date, status) VALUES (2, 'ST-5231', 2, 'Stationary', '2.01.2019', '23.06.2023', 'Active');
+
 INSERT INTO tab_human (id, firstname, surname, patronymic, sex, age) VALUES (1, 'Aleksey', 'Ivanov', 'Olegovich', 'M', 78);
 INSERT INTO tab_human (id, firstname, surname, patronymic, sex, age) VALUES (2, 'Anfisa', 'Padalkina', 'Igorevna', 'F', 26);
 INSERT INTO tab_human (id, firstname, surname, patronymic, sex, age) VALUES (3, 'Olga', 'Kobzeva', 'Vladimirovna', 'F', 103);
