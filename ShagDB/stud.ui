@@ -1612,12 +1612,17 @@
        <height>681</height>
       </rect>
      </property>
+     <column>
+      <property name="text">
+       <string notr="true">1</string>
+      </property>
+     </column>
     </widget>
-    <widget class="QDialogButtonBox" name="buttonPush">
+    <widget class="QDialogButtonBox" name="pushEdit">
      <property name="geometry">
       <rect>
-       <x>350</x>
-       <y>640</y>
+       <x>360</x>
+       <y>590</y>
        <width>156</width>
        <height>23</height>
       </rect>
@@ -1642,6 +1647,19 @@
       <pixmap>DesignImages/Photo.png</pixmap>
      </property>
     </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>630</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Редактировать</string>
+     </property>
+    </widget>
    </widget>
   </widget>
   <widget class="QPushButton" name="buttonBack">
@@ -1658,6 +1676,29 @@
    </property>
    <property name="flat">
     <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushAdd">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>400</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>DesignImages/Add_end.png</normaloff>DesignImages/Add_end.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>24</width>
+     <height>24</height>
+    </size>
    </property>
   </widget>
  </widget>
