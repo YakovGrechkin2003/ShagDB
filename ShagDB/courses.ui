@@ -54,6 +54,12 @@
    <property name="rowCount">
     <number>1000</number>
    </property>
+   <attribute name="horizontalHeaderMinimumSectionSize">
+    <number>39</number>
+   </attribute>
+   <attribute name="verticalHeaderDefaultSectionSize">
+    <number>29</number>
+   </attribute>
    <row/>
    <row/>
    <row/>
