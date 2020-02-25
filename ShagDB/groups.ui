@@ -13,7 +13,7 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <widget class="QLabel" name="label_pageGroup">
+  <widget class="QLabel" name="label_pageGroups">
    <property name="geometry">
     <rect>
      <x>0</x>
@@ -55,9 +55,9 @@
   <widget class="QTableWidget" name="tableGroup">
    <property name="geometry">
     <rect>
-     <x>330</x>
-     <y>90</y>
-     <width>791</width>
+     <x>440</x>
+     <y>80</y>
+     <width>561</width>
      <height>611</height>
     </rect>
    </property>
@@ -121,6 +121,67 @@
    </property>
    <property name="flat">
     <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="toolEdit">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>80</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>DesignImages/EditButtonend.png</normaloff>DesignImages/EditButtonend.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>24</width>
+     <height>24</height>
+    </size>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="popupMode">
+    <enum>QToolButton::DelayedPopup</enum>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextBesideIcon</enum>
+   </property>
+   <property name="arrowType">
+    <enum>Qt::NoArrow</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushAdd">
+   <property name="geometry">
+    <rect>
+     <x>970</x>
+     <y>80</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>DesignImages/Add_end.png</normaloff>DesignImages/Add_end.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>24</width>
+     <height>24</height>
+    </size>
    </property>
   </widget>
  </widget>
