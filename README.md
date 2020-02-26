@@ -1,14 +1,12 @@
-﻿![GitHub](https://img.shields.io/github/license/itstep-vrn/ShagDB?style=for-the-badge)
- 
- [![CodeFactor](https://www.codefactor.io/repository/github/itstep-vrn/shagdb/badge)](https://www.codefactor.io/repository/github/itstep-vrn/shagdb)
+[![CodeFactor](https://www.codefactor.io/repository/github/itstep-vrn/shagdb/badge)](https://www.codefactor.io/repository/github/itstep-vrn/shagdb)
 
-![Logo](img/logo.png)
-# ShagDB
+
+# ShagDB  ![Logo](img/logo.png)
 
 ***
 + Учебный проект
 + [(c) Компьютерная акдемия ШАГ. Воронеж](https://vrn.itstep.org/)
-+ [MIT License](/LICENSE)
++ [![GitHub](https://img.shields.io/github/license/itstep-vrn/ShagDB?style=for-the-badge)](/LICENSE)
 + Версия: 0.0.1 (Февраль 2020)
 ***
 
