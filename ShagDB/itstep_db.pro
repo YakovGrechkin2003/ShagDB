@@ -26,17 +26,19 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+        managers.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+        managers.h
 
 FORMS += \
         mainwindow.ui \
     dialog.ui \
+    managers.ui \
     stud.ui \
     teachers.ui \
-    manager.ui \
     courses.ui \
     groups.ui \
     group.ui
