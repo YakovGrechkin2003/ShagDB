@@ -39,10 +39,6 @@ FORMS += \
     faculty.ui \
     group.ui \
         mainwindow.ui \
-    dialog.ui \
-    stud.ui \
-    teachers.ui \
-    manager.ui \
     groups.ui
 
 # Default rules for deployment.
