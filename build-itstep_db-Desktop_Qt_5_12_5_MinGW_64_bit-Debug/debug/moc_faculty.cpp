@@ -38,7 +38,6 @@ QT_MOC_LITERAL(0, 0, 7) // "faculty"
 #undef QT_MOC_LITERAL
 
 static const uint qt_meta_data_faculty[] = {
-
  // content:
        8,       // revision
        0,       // classname
