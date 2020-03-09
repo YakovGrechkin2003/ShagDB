@@ -32,7 +32,6 @@ struct qt_meta_stringdata_Students_t {
 static const qt_meta_stringdata_Students_t qt_meta_stringdata_Students = {
     {
 QT_MOC_LITERAL(0, 0, 8) // "Students"
-
     },
     "Students"
 };
