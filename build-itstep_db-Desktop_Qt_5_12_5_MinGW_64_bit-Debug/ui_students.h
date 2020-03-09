@@ -298,7 +298,6 @@ public:
         ButtonSearch->setText(QApplication::translate("Students", "\320\237\320\276\320\270\321\201\320\272", nullptr));
         pushButton_Edit->setText(QApplication::translate("Students", "\320\240\320\265\320\264\320\260\320\272\321\202\320\270\321\200\320\276\320\262\320\260\321\202\321\214", nullptr));
     } // retranslateUi
-
 };
 namespace Ui {
     class Students: public Ui_Students {};
