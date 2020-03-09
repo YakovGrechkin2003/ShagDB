@@ -39,7 +39,6 @@ QT_MOC_LITERAL(0, 0, 8) // "Students"
 #undef QT_MOC_LITERAL
 
 static const uint qt_meta_data_Students[] = {
-
  // content:
        8,       // revision
        0,       // classname
