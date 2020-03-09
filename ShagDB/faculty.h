@@ -4,19 +4,19 @@
 #include <QWidget>
 
 namespace Ui {
-class faculty;
+class Faculty;
 }
 
-class faculty : public QWidget
+class Faculty : public QWidget
 {
     Q_OBJECT
 
 public:
-    explicit faculty(QWidget *parent = nullptr);
-    ~faculty();
+    explicit Faculty(QWidget *parent = nullptr);
+    ~Faculty();
 
 private:
-    Ui::faculty *ui;
+    Ui::Faculty *ui;
 };
 
 #endif // FACULTY_H
