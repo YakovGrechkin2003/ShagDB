@@ -100,7 +100,6 @@ public:
         lineFaculty->setText(QApplication::translate("faculty", "   \320\244\320\260\320\272\321\203\320\273\321\214\321\202\320\265\321\202\321\213", nullptr));
         pushAdd->setText(QString());
     } // retranslateUi
-
 };
 
 namespace Ui {
