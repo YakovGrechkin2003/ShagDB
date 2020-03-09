@@ -81,7 +81,6 @@ public:
         lable_pageOne->setText(QString());
         button_DB->setText(QString());
     } // retranslateUi
-
 };
 
 namespace Ui {
