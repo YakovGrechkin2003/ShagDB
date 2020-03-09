@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Faculty</class>
- <widget class="QWidget" name="Faculty">
+ <class>faculty</class>
+ <widget class="QWidget" name="faculty">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -10,13 +10,33 @@
     <height>800</height>
    </rect>
   </property>
-  <property name="acceptDrops">
-   <bool>false</bool>
-  </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <widget class="QLabel" name="label_image">
+  <widget class="QPushButton" name="pushSearch">
+   <property name="geometry">
+    <rect>
+     <x>1100</x>
+     <y>20</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Поиск</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textSearch">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>20</y>
+     <width>791</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_pageCourses">
    <property name="geometry">
     <rect>
      <x>0</x>
@@ -32,23 +52,23 @@
     <pixmap>DesignImages/fon_end.png</pixmap>
    </property>
   </widget>
-  <widget class="QTableWidget" name="tab_faculty">
+  <widget class="QTableWidget" name="tableCourses">
    <property name="geometry">
     <rect>
-     <x>320</x>
-     <y>110</y>
-     <width>541</width>
-     <height>641</height>
+     <x>310</x>
+     <y>120</y>
+     <width>891</width>
+     <height>631</height>
     </rect>
    </property>
    <property name="rowCount">
     <number>1000</number>
    </property>
-   <attribute name="horizontalHeaderDefaultSectionSize">
-    <number>243</number>
+   <attribute name="horizontalHeaderMinimumSectionSize">
+    <number>39</number>
    </attribute>
-   <attribute name="horizontalHeaderHighlightSections">
-    <bool>false</bool>
+   <attribute name="verticalHeaderDefaultSectionSize">
+    <number>29</number>
    </attribute>
    <row/>
    <row/>
@@ -1057,40 +1077,17 @@
    </column>
    <column>
     <property name="text">
-     <string>Аббревиатура</string>
+     <string>Короткое название</string>
     </property>
    </column>
   </widget>
-  <widget class="QTextEdit" name="line_search">
+  <widget class="QLineEdit" name="lineFaculty">
    <property name="geometry">
     <rect>
-     <x>310</x>
-     <y>10</y>
-     <width>631</width>
+     <x>650</x>
+     <y>80</y>
+     <width>231</width>
      <height>31</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="push_search">
-   <property name="geometry">
-    <rect>
-     <x>940</x>
-     <y>10</y>
-     <width>81</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Поиск</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_faculty">
-   <property name="geometry">
-    <rect>
-     <x>520</x>
-     <y>60</y>
-     <width>171</width>
-     <height>41</height>
     </rect>
    </property>
    <property name="font">
@@ -1101,14 +1098,14 @@
     </font>
    </property>
    <property name="text">
-    <string>Факультеты</string>
+    <string>   Факультеты</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="push_add">
+  <widget class="QPushButton" name="pushAdd">
    <property name="geometry">
     <rect>
-     <x>860</x>
-     <y>110</y>
+     <x>1154</x>
+     <y>120</y>
      <width>31</width>
      <height>31</height>
     </rect>
@@ -1127,6 +1124,12 @@
     </size>
    </property>
   </widget>
+  <zorder>label_pageCourses</zorder>
+  <zorder>lineFaculty</zorder>
+  <zorder>pushSearch</zorder>
+  <zorder>tableCourses</zorder>
+  <zorder>textSearch</zorder>
+  <zorder>pushAdd</zorder>
  </widget>
  <resources/>
  <connections/>

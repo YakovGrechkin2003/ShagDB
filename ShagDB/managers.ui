@@ -69,9 +69,9 @@
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>330</y>
+     <y>290</y>
      <width>600</width>
-     <height>451</height>
+     <height>491</height>
     </rect>
    </property>
    <property name="rowCount">
@@ -1201,14 +1201,17 @@
        </font>
       </property>
       <property name="text">
-       <string>Телефон</string>
+       <string>Контакт</string>
       </property>
      </widget>
     </item>
     <item row="5" column="1">
      <widget class="QLineEdit" name="line_Phone1"/>
     </item>
-    <item row="6" column="0">
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="line_Phone2"/>
+    </item>
+    <item row="7" column="0">
      <widget class="QLabel" name="lab_Email">
       <property name="font">
        <font>
@@ -1222,10 +1225,10 @@
       </property>
      </widget>
     </item>
-    <item row="6" column="1">
+    <item row="7" column="1">
      <widget class="QLineEdit" name="line_Email"/>
     </item>
-    <item row="7" column="0">
+    <item row="8" column="0">
      <widget class="QLabel" name="lab_Status">
       <property name="font">
        <font>
@@ -1239,10 +1242,10 @@
       </property>
      </widget>
     </item>
-    <item row="7" column="1">
+    <item row="8" column="1">
      <widget class="QLineEdit" name="line_Status"/>
     </item>
-    <item row="8" column="0">
+    <item row="9" column="0">
      <widget class="QLabel" name="lab_Salary">
       <property name="font">
        <font>
@@ -1256,7 +1259,7 @@
       </property>
      </widget>
     </item>
-    <item row="8" column="1">
+    <item row="9" column="1">
      <widget class="QLineEdit" name="line_Salary"/>
     </item>
    </layout>
@@ -1264,8 +1267,8 @@
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>620</x>
-     <y>330</y>
+     <x>590</x>
+     <y>250</y>
      <width>31</width>
      <height>31</height>
     </rect>
@@ -1311,29 +1314,6 @@
    </property>
    <property name="standardButtons">
     <set>QDialogButtonBox::Discard|QDialogButtonBox::Save</set>
-   </property>
-  </widget>
-  <widget class="QTextEdit" name="textSearch">
-   <property name="geometry">
-    <rect>
-     <x>20</x>
-     <y>290</y>
-     <width>511</width>
-     <height>31</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="pushSearch">
-   <property name="geometry">
-    <rect>
-     <x>530</x>
-     <y>290</y>
-     <width>91</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Поиск</string>
    </property>
   </widget>
  </widget>

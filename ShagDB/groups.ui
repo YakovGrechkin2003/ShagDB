@@ -61,9 +61,6 @@
      <height>611</height>
     </rect>
    </property>
-   <attribute name="horizontalHeaderDefaultSectionSize">
-    <number>111</number>
-   </attribute>
    <column>
     <property name="text">
      <string>Имя группы</string>
@@ -132,8 +129,8 @@
    </property>
    <property name="geometry">
     <rect>
-     <x>1000</x>
-     <y>110</y>
+     <x>940</x>
+     <y>80</y>
      <width>31</width>
      <height>31</height>
     </rect>
@@ -167,7 +164,7 @@
   <widget class="QPushButton" name="pushAdd">
    <property name="geometry">
     <rect>
-     <x>1000</x>
+     <x>970</x>
      <y>80</y>
      <width>31</width>
      <height>31</height>
