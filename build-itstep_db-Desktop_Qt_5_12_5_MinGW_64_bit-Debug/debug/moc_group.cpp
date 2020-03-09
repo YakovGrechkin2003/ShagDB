@@ -32,14 +32,12 @@ struct qt_meta_stringdata_group_t {
 static const qt_meta_stringdata_group_t qt_meta_stringdata_group = {
     {
 QT_MOC_LITERAL(0, 0, 5) // "group"
-
     },
     "group"
 };
 #undef QT_MOC_LITERAL
 
 static const uint qt_meta_data_group[] = {
-
  // content:
        8,       // revision
        0,       // classname
