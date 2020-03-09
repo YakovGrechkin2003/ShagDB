@@ -28,18 +28,21 @@ SOURCES += \
         faculty.cpp \
         group.cpp \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+        students.cpp
 
 HEADERS += \
         faculty.h \
         group.h \
-        mainwindow.h
+        mainwindow.h \
+        students.h
 
 FORMS += \
     faculty.ui \
     group.ui \
         mainwindow.ui \
-    groups.ui
+    groups.ui \
+    students.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
