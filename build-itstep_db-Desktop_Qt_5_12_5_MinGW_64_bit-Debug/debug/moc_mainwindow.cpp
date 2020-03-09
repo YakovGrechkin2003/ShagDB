@@ -32,7 +32,6 @@ struct qt_meta_stringdata_MainWindow_t {
 static const qt_meta_stringdata_MainWindow_t qt_meta_stringdata_MainWindow = {
     {
 QT_MOC_LITERAL(0, 0, 10) // "MainWindow"
-
     },
     "MainWindow"
 };
