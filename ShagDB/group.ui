@@ -13,15 +13,53 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <widget class="QTableWidget" name="tableGroup">
+  <widget class="QLabel" name="label_image">
    <property name="geometry">
     <rect>
-     <x>320</x>
-     <y>110</y>
-     <width>791</width>
-     <height>611</height>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>800</height>
     </rect>
    </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>DesignImages/fon_end.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tab_group">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>150</y>
+     <width>541</width>
+     <height>501</height>
+    </rect>
+   </property>
+   <property name="rowCount">
+    <number>16</number>
+   </property>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>166</number>
+   </attribute>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
    <column>
     <property name="text">
      <string>Фамилия</string>
@@ -38,65 +76,13 @@
     </property>
    </column>
   </widget>
-  <widget class="QPushButton" name="buttonSearch">
+  <widget class="QLabel" name="label_group">
    <property name="geometry">
     <rect>
-     <x>1110</x>
-     <y>30</y>
-     <width>101</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Поиск</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_pageGroup">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>1280</width>
-     <height>800</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="pixmap">
-    <pixmap>DesignImages/fon_end.png</pixmap>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="pushAdd">
-   <property name="geometry">
-    <rect>
-     <x>1080</x>
-     <y>110</y>
-     <width>31</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="icon">
-    <iconset>
-     <normaloff>DesignImages/Add_end.png</normaloff>DesignImages/Add_end.png</iconset>
-   </property>
-   <property name="iconSize">
-    <size>
-     <width>24</width>
-     <height>24</height>
-    </size>
-   </property>
-  </widget>
-  <widget class="QLabel" name="labelGroup">
-   <property name="geometry">
-    <rect>
-     <x>600</x>
-     <y>70</y>
-     <width>231</width>
-     <height>31</height>
+     <x>440</x>
+     <y>100</y>
+     <width>291</width>
+     <height>41</height>
     </rect>
    </property>
    <property name="font">
@@ -107,49 +93,9 @@
     </font>
    </property>
    <property name="text">
-    <string>&lt;Имя группы&gt;</string>
+    <string>&lt;Название группы&gt;</string>
    </property>
   </widget>
-  <widget class="QTextEdit" name="textSearch">
-   <property name="geometry">
-    <rect>
-     <x>320</x>
-     <y>30</y>
-     <width>791</width>
-     <height>31</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="pushEdit">
-   <property name="geometry">
-    <rect>
-     <x>1050</x>
-     <y>110</y>
-     <width>31</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="icon">
-    <iconset>
-     <normaloff>DesignImages/EditButtonend.png</normaloff>DesignImages/EditButtonend.png</iconset>
-   </property>
-   <property name="iconSize">
-    <size>
-     <width>24</width>
-     <height>24</height>
-    </size>
-   </property>
-  </widget>
-  <zorder>label_pageGroup</zorder>
-  <zorder>buttonSearch</zorder>
-  <zorder>labelGroup</zorder>
-  <zorder>tableGroup</zorder>
-  <zorder>textSearch</zorder>
-  <zorder>pushAdd</zorder>
-  <zorder>pushEdit</zorder>
  </widget>
  <resources/>
  <connections/>

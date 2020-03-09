@@ -1,14 +1,14 @@
 #include "faculty.h"
 #include "ui_faculty.h"
 
-faculty::faculty(QWidget *parent) :
+Faculty::Faculty(QWidget *parent) :
     QWidget(parent),
-    ui(new Ui::faculty)
+    ui(new Ui::Faculty)
 {
     ui->setupUi(this);
 }
 
-faculty::~faculty()
+Faculty::~Faculty()
 {
     delete ui;
 }
