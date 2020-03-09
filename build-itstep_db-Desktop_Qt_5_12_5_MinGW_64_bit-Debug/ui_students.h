@@ -300,7 +300,6 @@ public:
     } // retranslateUi
 
 };
-
 namespace Ui {
     class Students: public Ui_Students {};
 } // namespace Ui
