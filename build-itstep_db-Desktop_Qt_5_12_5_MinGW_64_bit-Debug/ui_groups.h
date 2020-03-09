@@ -121,7 +121,6 @@ public:
         toolEdit->setText(QString());
         pushAdd->setText(QString());
     } // retranslateUi
-
 };
 
 namespace Ui {
