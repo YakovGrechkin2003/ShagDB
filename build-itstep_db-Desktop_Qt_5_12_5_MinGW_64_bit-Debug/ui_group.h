@@ -108,7 +108,6 @@ public:
         labelGroup->setText(QApplication::translate("group", "<\320\230\320\274\321\217 \320\263\321\200\321\203\320\277\320\277\321\213>", nullptr));
         pushEdit->setText(QString());
     } // retranslateUi
-
 };
 
 namespace Ui {
