@@ -25,21 +25,23 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
-        faculty.cpp \
-        group.cpp \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+        managers.cpp
 
 HEADERS += \
-        faculty.h \
-        group.h \
-        mainwindow.h
+        mainwindow.h \
+        managers.h
 
 FORMS += \
-    faculty.ui \
-    group.ui \
         mainwindow.ui \
-    groups.ui
+    dialog.ui \
+    managers.ui \
+    stud.ui \
+    teachers.ui \
+    courses.ui \
+    groups.ui \
+    group.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
