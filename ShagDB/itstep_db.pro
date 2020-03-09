@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui sql
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -29,12 +29,14 @@ SOURCES += \
         group.cpp \
         main.cpp \
         mainwindow.cpp \
+        students.cpp \
         teacher.cpp
 
 HEADERS += \
         faculty.h \
         group.h \
         mainwindow.h \
+        students.h \
         teacher.h
 
 FORMS += \
@@ -42,9 +44,10 @@ FORMS += \
     group.ui \
         mainwindow.ui \
     groups.ui \
+    students.ui \
     teacher.ui
-
-# Default rules for deployment.
+    
+    # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
