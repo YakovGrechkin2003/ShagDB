@@ -68,9 +68,9 @@
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>350</y>
+     <y>330</y>
      <width>600</width>
-     <height>441</height>
+     <height>451</height>
     </rect>
    </property>
    <property name="lineWidth">
@@ -1102,7 +1102,7 @@
    <property name="geometry">
     <rect>
      <x>620</x>
-     <y>350</y>
+     <y>330</y>
      <width>31</width>
      <height>31</height>
     </rect>
@@ -1124,10 +1124,10 @@
   <widget class="QWidget" name="formLayoutWidget_2">
    <property name="geometry">
     <rect>
-     <x>730</x>
-     <y>330</y>
+     <x>760</x>
+     <y>320</y>
      <width>501</width>
-     <height>261</height>
+     <height>291</height>
     </rect>
    </property>
    <layout class="QFormLayout" name="formLayout_2">
@@ -1152,7 +1152,7 @@
      </widget>
     </item>
     <item row="0" column="1">
-     <widget class="QLineEdit" name="lineEdit_2"/>
+     <widget class="QLineEdit" name="line_LastName"/>
     </item>
     <item row="1" column="0">
      <widget class="QLabel" name="lab_Name">
@@ -1169,7 +1169,7 @@
      </widget>
     </item>
     <item row="1" column="1">
-     <widget class="QLineEdit" name="lineEdit_3"/>
+     <widget class="QLineEdit" name="line_Name"/>
     </item>
     <item row="2" column="0">
      <widget class="QLabel" name="lab_Patronimyc">
@@ -1186,7 +1186,7 @@
      </widget>
     </item>
     <item row="2" column="1">
-     <widget class="QLineEdit" name="lineEdit_4"/>
+     <widget class="QLineEdit" name="line_Patronymic"/>
     </item>
     <item row="3" column="0">
      <widget class="QLabel" name="lab_Age">
@@ -1203,7 +1203,7 @@
      </widget>
     </item>
     <item row="3" column="1">
-     <widget class="QLineEdit" name="lineEdit_5"/>
+     <widget class="QLineEdit" name="line_Age"/>
     </item>
     <item row="4" column="0">
      <widget class="QLabel" name="lab_Sex">
@@ -1220,7 +1220,7 @@
      </widget>
     </item>
     <item row="4" column="1">
-     <widget class="QLineEdit" name="lineEdit_6"/>
+     <widget class="QLineEdit" name="line_Sex"/>
     </item>
     <item row="5" column="0">
      <widget class="QLabel" name="lab_Phone">
@@ -1232,15 +1232,15 @@
        </font>
       </property>
       <property name="text">
-       <string>Контакты</string>
+       <string>Телефон</string>
       </property>
      </widget>
     </item>
     <item row="5" column="1">
-     <widget class="QLineEdit" name="lineEdit_7"/>
+     <widget class="QLineEdit" name="line_Phone"/>
     </item>
     <item row="6" column="0">
-     <widget class="QLabel" name="label_7">
+     <widget class="QLabel" name="lab_Email">
       <property name="font">
        <font>
         <pointsize>14</pointsize>
@@ -1254,10 +1254,10 @@
      </widget>
     </item>
     <item row="6" column="1">
-     <widget class="QLineEdit" name="lineEdit_8"/>
+     <widget class="QLineEdit" name="line_Email"/>
     </item>
     <item row="7" column="0">
-     <widget class="QLabel" name="label">
+     <widget class="QLabel" name="lab_GroupNumber">
       <property name="font">
        <font>
         <pointsize>14</pointsize>
@@ -1271,10 +1271,10 @@
      </widget>
     </item>
     <item row="7" column="1">
-     <widget class="QLineEdit" name="lineEdit_9"/>
+     <widget class="QLineEdit" name="line_GroupNumber"/>
     </item>
     <item row="8" column="0">
-     <widget class="QLabel" name="label_2">
+     <widget class="QLabel" name="lab_Status">
       <property name="font">
        <font>
         <pointsize>14</pointsize>
@@ -1288,16 +1288,112 @@
      </widget>
     </item>
     <item row="8" column="1">
-     <widget class="QLineEdit" name="lineEdit_10"/>
+     <widget class="QLineEdit" name="line_Status"/>
     </item>
-    <item row="9" column="0">
-     <widget class="QLabel" name="label_3">
+    <item row="10" column="0">
+     <widget class="QLabel" name="lab_Faculty">
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
       <property name="text">
-       <string>TextLabel</string>
+       <string>Факультет</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="1">
+     <widget class="QLineEdit" name="line_Faculty"/>
+    </item>
+    <item row="11" column="0">
+     <widget class="QLabel" name="lab_StartEdu">
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Начало обучения</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="1">
+     <widget class="QLineEdit" name="line_StartEdu"/>
+    </item>
+    <item row="12" column="1">
+     <widget class="QLineEdit" name="line_EndEdu"/>
+    </item>
+    <item row="12" column="0">
+     <widget class="QLabel" name="lab_EndEdu">
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Конец обучения</string>
       </property>
      </widget>
     </item>
    </layout>
+  </widget>
+  <widget class="QPushButton" name="ButtonSearch">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>290</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Поиск</string>
+   </property>
+  </widget>
+  <widget class="QDialogButtonBox" name="buttonBox">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>920</x>
+     <y>700</y>
+     <width>156</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Edit">
+   <property name="geometry">
+    <rect>
+     <x>974</x>
+     <y>732</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Редактировать</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textSearch">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>290</y>
+     <width>511</width>
+     <height>31</height>
+    </rect>
+   </property>
   </widget>
  </widget>
  <resources/>
