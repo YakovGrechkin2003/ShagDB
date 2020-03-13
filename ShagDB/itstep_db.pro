@@ -37,7 +37,14 @@ HEADERS += \
         group.h \
         mainwindow.h \
         students.h \
-        teacher.h
+        teacher.h \
+        database.h \
+        ModelFaculty.h \
+        ModelGroup.h \
+        ModelGroups.h \
+        ModelManagers.h \
+        ModelStudents.h \
+        ModelTeachers.h
 
 FORMS += \
     faculty.ui \
