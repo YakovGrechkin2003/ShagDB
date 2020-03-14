@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Managers</class>
- <widget class="QWidget" name="Managers">
+ <class>teachers</class>
+ <widget class="QWidget" name="teachers">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -13,7 +13,7 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <widget class="QLabel" name="label_pageManagers">
+  <widget class="QLabel" name="label_pageTeachers">
    <property name="geometry">
     <rect>
      <x>0</x>
@@ -29,27 +29,27 @@
     <pixmap>DesignImages/fon_end.png</pixmap>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineManagers">
+  <widget class="QLineEdit" name="lineTeachers">
    <property name="geometry">
     <rect>
      <x>300</x>
      <y>0</y>
-     <width>441</width>
+     <width>521</width>
      <height>151</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <pointsize>41</pointsize>
+     <pointsize>38</pointsize>
      <weight>75</weight>
      <bold>true</bold>
     </font>
    </property>
    <property name="text">
-    <string>Менеджеры</string>
+    <string>Преподаватель</string>
    </property>
   </widget>
-  <widget class="QLabel" name="labAvatr">
+  <widget class="QLabel" name="labAvatar">
    <property name="geometry">
     <rect>
      <x>870</x>
@@ -86,7 +86,7 @@
    </property>
    <property name="font">
     <font>
-     <pointsize>15</pointsize>
+     <pointsize>14</pointsize>
     </font>
    </property>
    <property name="text">
@@ -96,10 +96,10 @@
   <widget class="QWidget" name="formLayoutWidget">
    <property name="geometry">
     <rect>
-     <x>700</x>
+     <x>680</x>
      <y>310</y>
-     <width>531</width>
-     <height>302</height>
+     <width>541</width>
+     <height>336</height>
     </rect>
    </property>
    <layout class="QFormLayout" name="formLayout">
@@ -223,6 +223,23 @@
      <widget class="QLineEdit" name="line_Email"/>
     </item>
     <item row="7" column="0">
+     <widget class="QLabel" name="lab_Discipline">
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Дисциплина</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QLineEdit" name="line_Discipline"/>
+    </item>
+    <item row="8" column="0">
      <widget class="QLabel" name="lab_Status">
       <property name="font">
        <font>
@@ -236,10 +253,10 @@
       </property>
      </widget>
     </item>
-    <item row="7" column="1">
+    <item row="8" column="1">
      <widget class="QLineEdit" name="line_Status"/>
     </item>
-    <item row="8" column="0">
+    <item row="9" column="0">
      <widget class="QLabel" name="lab_Salary">
       <property name="font">
        <font>
@@ -253,10 +270,30 @@
       </property>
      </widget>
     </item>
-    <item row="8" column="1">
+    <item row="9" column="1">
      <widget class="QLineEdit" name="line_Salary"/>
     </item>
    </layout>
+   <zorder>lab_Lastname</zorder>
+   <zorder>line_Lastname</zorder>
+   <zorder>lab_Firstname</zorder>
+   <zorder>line_Firstname</zorder>
+   <zorder>lab_Patronymic</zorder>
+   <zorder>line_Patronymic</zorder>
+   <zorder>line_Age</zorder>
+   <zorder>lab_Sex</zorder>
+   <zorder>line_Sex</zorder>
+   <zorder>lab_Phone</zorder>
+   <zorder>line_Phone</zorder>
+   <zorder>lab_Email</zorder>
+   <zorder>line_Email</zorder>
+   <zorder>line_Discipline</zorder>
+   <zorder>lab_Status</zorder>
+   <zorder>line_Status</zorder>
+   <zorder>lab_Salary</zorder>
+   <zorder>line_Salary</zorder>
+   <zorder>lab_Age</zorder>
+   <zorder>lab_Discipline</zorder>
   </widget>
   <widget class="QPushButton" name="buttonEdit">
    <property name="geometry">
@@ -310,7 +347,7 @@
     </size>
    </property>
   </widget>
-  <widget class="QTableView" name="tableManagers">
+  <widget class="QTableView" name="tableTeachers">
    <property name="geometry">
     <rect>
      <x>20</x>
@@ -320,6 +357,16 @@
     </rect>
    </property>
   </widget>
+  <zorder>label_pageTeachers</zorder>
+  <zorder>formLayoutWidget</zorder>
+  <zorder>buttonBoxSubmitCancel</zorder>
+  <zorder>buttonEdit</zorder>
+  <zorder>buttonSearch</zorder>
+  <zorder>labAvatar</zorder>
+  <zorder>textSearch</zorder>
+  <zorder>lineTeachers</zorder>
+  <zorder>buttonAdd</zorder>
+  <zorder>tableTeachers</zorder>
  </widget>
  <resources/>
  <connections/>
